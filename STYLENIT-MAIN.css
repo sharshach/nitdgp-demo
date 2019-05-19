@@ -1,0 +1,173 @@
+.logo{	
+	
+	width:85px;
+	height:85px;
+}
+.headermain{
+	background-color:rgb(5,10,52);
+	color:white;	 width:100%;
+	font-family:georgia;
+	
+}
+
+
+.imgppt{
+  width: 100%;
+  height: auto;
+}
+.nitcaption{font-family:cursive;}
+div.largevisible{padding:25px;}
+div.smallvisible{padding:25px;}
+@media screen and (max-width:1000px)
+{
+	div.largevisible{display:none;}
+}
+@media screen and (min-width:1000px)
+{
+	div.smallvisible{display:none;}
+}
+@media screen and (max-width:750px)
+{
+	div.nitcaption{display:none;}
+}
+@media screen and (min-width:750px)
+{
+	div.nitcaptionopposite{display:none;}
+}
+@media screen and (min-width:750px)
+{
+	div.mobileview{display:none;}
+}
+@media screen and (max-width:750px)
+{
+	div.lapview{display:none;}
+}
+
+
+footer{
+	
+	width:100%;
+	text-align: center;
+	background-color:rgb(27,44,40);
+
+	color:white;
+
+	padding:20px;
+}
+
+.nitweb{
+padding:6px;
+	color:white;
+background-color:blue;
+border-radius:10px;
+text-decoration:none;
+}
+.weblinks{
+color:rgb(232,0,0);
+}
+.sd01{
+	color:black;
+	border-radius:20px;
+	text-align: center;
+font-family:schoolbell;
+transform:scale(0.96);
+}
+.sd02{
+	color:white;
+	border-radius:20px;
+	border-width:-100px;	
+	text-align: center;
+	font-family:schoolbell;
+transform:scale(0.96);
+}a:hover{color:white;}
+
+
+
+
+
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; size:2;}
+.logoload {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(NITLOGO2.png) center no-repeat rgb(5,10,52);
+}
+.part1{}
+#vtour{
+	width:100%;
+	background-color:yellow;
+	text-align:center;
+	font-family:eater;
+	padding:10px;
+	}
+#hnb{
+	opacity:1;
+	}
+#hidebutton{
+	opacity:1;
+background-color:rgb(5,10,52);
+border-color:rgb(5,10,52);
+color:white;
+font-size:150%;
+}
+#showbutton{
+background-color:rgb(5,10,52);
+border-color:rgb(5,10,52);
+color:white;
+font-size:150%;
+	
+opacity:1;
+}
+
+
+
+.zoom1{z-index:1;}
+.zoom2{z-index:1;}
+.zoom3{z-index:1;}
+#zoom1a{z-index:0;}
+#zoom2a{z-index:0;}
+#zoom3a{z-index:0;}
+
+
+.harshabutton{opacity:0; position:absolute; width:60%; height:80%; left:20%;top:0%; z-index:999;}
+	.head{
+		color:white;
+		text-align:center;
+	}
+	.item{
+		background-color:white;
+		text-align:center;
+		transform:scale(0.95);
+		border-radius:10px;
+	}
+	.date{
+		background-color:green;
+		color:white;
+		text-align:center;
+		transform:scale(0.95);
+		border-radius:10px;
+	}
+	.date-dd{
+		margin:0px;
+		font-size:200%;
+	}
+	.date-mm{
+		margin:0px;
+		font-size:90%;
+	}
+	.linkitem{
+		color:black;
+		text-decoration:none;
+	}
+	.main{
+			transform:scale(0.95);
+		border-radius:10px;
+		background-color:blue;
+		padding-bottom:5px;
+	}
